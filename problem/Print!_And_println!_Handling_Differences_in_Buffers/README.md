@@ -4,7 +4,7 @@
 	println!("Please enter a random number between 1 and 100:");
 	io::stdin() 
 		.read_line(&mut guess_number)
-        .expect("Anything wrong happened!");
+        	.expect("Anything wrong happened!");
 ```
 
 ![normal](https://github.com/thedarknessdied/rust_object_Set/blob/main/problem/Print!_And_println!_Handling_Differences_in_Buffers/README.assets/normal.png)
@@ -15,7 +15,7 @@
 	print!("Please enter a random number between 1 and 100:");
 	io::stdin() 
 		.read_line(&mut guess_number)
-        .expect("Anything wrong happened!");
+        	.expect("Anything wrong happened!");
 ```
 
 ![wrong](https://github.com/thedarknessdied/rust_object_Set/blob/main/problem/Print!_And_println!_Handling_Differences_in_Buffers/README.assets/wrong.png)
